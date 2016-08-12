@@ -1,0 +1,23 @@
+"","Sub_sectors","Scope-1","Scope-2","Scope-3"
+"1","Residential",2394807.31410911,1454197.04778969,214828.842280372
+"2","Commercial / institutional",846725.146329999,2075330.07321178,254434.501194008
+"3","Manufacturing / construction",370560.243441321,369535.326671381,49271.3728811746
+"4","Energy industries",NA,NA,NA
+"5","Agriculture",NA,NA,NA
+"6","Non-specified sources",NA,NA,NA
+"7","Fugitive emissions (coal)",NA,NA,NA
+"8","Fugitive emissions (oil and gas)",147197.650658074,NA,NA
+"9","On-road",3994892.85880321,NA,NA
+"10","Railways",17541.7694690907,78892.8846751463,17033.4354162669
+"11","Waterborne",NA,NA,NA
+"12","Aviation",NA,NA,NA
+"13","Off-road",NA,NA,NA
+"14","Solid waste",NA,NA,1637774
+"15","Biological waste",NA,NA,5261.65
+"16","Incineraton",NA,NA,NA
+"17","Wastewater",55390.3762634506,NA,83186
+"18","Industrial processes",NA,NA,NA
+"19","Product use",NA,NA,NA
+"20","Livestock",NA,NA,NA
+"21","Land",NA,NA,NA
+"22","Aggregate sources",NA,NA,NA

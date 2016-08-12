@@ -1,0 +1,9 @@
+"","Sectors","Basic","Basic+","Scope 1"
+"1","STATIONARY ENERGY Energy use (all emissions except I.4.4)",7658352.80221136,8176887.51856691,3759290.3545385
+"2","Energy generation supplied to the grid (I.4.4)",NA,NA,9574078.30637605
+"3","TRANSPORTATION (all II emissions)",4091327.51294745,4108360.94836372,4012434.62827231
+"4","WASTE Waste generated in the city (III.X.1 and III.X.2)",1781612.02626345,1781612.02626345,55390.3762634506
+"5","Waste enerated outside city (III.X.3)",NA,NA,0
+"6","IPPU (all IV emissions)",NA,0,0
+"7","AFOLU  (all V emissions)",NA,0,0
+"8","OTHER SCOPE 3 (all VI emissions)",NA,NA,NA
