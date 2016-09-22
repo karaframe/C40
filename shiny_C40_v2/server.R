@@ -9,6 +9,7 @@ library(plotly)
 library(shinyjs)
 library(V8)
 library(shinydashboard)
+library(DT)
 
 
 # Clear all objects
@@ -132,19 +133,21 @@ output$myMap = renderLeaflet(finalMap())
 ## tables with sectors & subsectors  data---------------------------------------------
 
 
-output$sectors <- renderTable({
+output$sectors <- DT::renderDataTable(DT::datatable ({
 #  if(input$goButton == 0)
  #  return(NULL)
-    read.csv("sectors.csv")
-})
+  table <- read.csv("sectors.csv")
+}))
 
 
 
-output$subsectors <- renderTable({
+
+
+output$subsectors <- DT::renderDataTable(DT::datatable({
 #  if (input$goButton == 0)
  #    return(NULL)
-    read.csv("subsectors.csv")
-})
+  table <-read.csv("subsectors.csv")
+}))
 
 
 ## ggplotly for sectors------------------------------------------------------

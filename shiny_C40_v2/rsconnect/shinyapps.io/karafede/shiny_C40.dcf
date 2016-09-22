@@ -2,6 +2,6 @@ name: shiny_C40
 account: karafede
 server: shinyapps.io
 appId: 118996
-bundleId: 530483
+bundleId: 564849
 url: https://karafede.shinyapps.io/shiny_C40/
-when: 1471014151.63362
+when: 1474535655.8965

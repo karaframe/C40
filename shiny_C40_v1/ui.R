@@ -93,7 +93,7 @@ ui <- dashboardPage(skin = "red",
               tabBox(
                 height = 750, width = 950, selected = tags$b("Data"),
                 tabPanel(
-                  tags$b("Data"), tableOutput('sectors')
+                  tags$b("Data"), DT::dataTableOutput('sectors')
                 ),
                 # tabPanel(
                 #   tags$b("Summary_plot_1"),
@@ -118,7 +118,7 @@ ui <- dashboardPage(skin = "red",
               tabBox(
                 height = 750, width = 950, selected = tags$b("Data"), 
                 tabPanel(
-                  tags$b("Data"), tableOutput('subsectors')
+                  tags$b("Data"), DT::dataTableOutput('subsectors')
                 ),
                 tabPanel(
                         tags$b("Summary_plot"),

@@ -35,17 +35,17 @@ ui <- dashboardPage(skin = "red",
                      ),
                      
                      
-                    #  fileInput('file1', 'choose xlsm File',
-                    #            accept = c(".xlsm")),
-                    #  
-                    # fluidRow(
-                    #   column (3,offset = 1,
-                    #  actionButton("goButton", strong("Process xlsm file"), icon("cog", lib = "glyphicon"), 
-                    #               style="color: #000000; background-color: #ffff7f ; border-color: #ffff7f"), # width = 150
-                    #  # actionButton("resetButton", "clear", icon("paper-plane"),
-                    #  #              style="color: #fff; background-color: #ff4c4c; border-color: #2e6da4"),
-                    #  tableOutput('contents')
-                    #  )),
+                     fileInput('file1', 'choose xlsm File',
+                               accept = c(".xlsm")),
+
+                    fluidRow(
+                      column (3,offset = 1,
+                     actionButton("goButton", strong("Process xlsm file"), icon("cog", lib = "glyphicon"),
+                                  style="color: #000000; background-color: #ffff7f ; border-color: #ffff7f"), # width = 150
+                     # actionButton("resetButton", "clear", icon("paper-plane"),
+                     #              style="color: #fff; background-color: #ff4c4c; border-color: #2e6da4"),
+                     tableOutput('contents')
+                     )),
                     
                     
           
@@ -90,7 +90,7 @@ ui <- dashboardPage(skin = "red",
               tabBox(
                 height = 750, width = 950, selected = tags$b("Data"),
                 tabPanel(
-                  tags$b("Data"), tableOutput('sectors')
+                  tags$b("Data"), DT::dataTableOutput('sectors')
                 ),
                 tabPanel(
                    tags$b("Summary plot"), 
@@ -106,7 +106,7 @@ ui <- dashboardPage(skin = "red",
               tabBox(
                 height = 750, width = 950, selected = tags$b("Data"), 
                 tabPanel(
-                  tags$b("Data"), tableOutput('subsectors')
+                  tags$b("Data"), DT::dataTableOutput('subsectors')
                 ),
                 tabPanel(
                         tags$b("Summary plot"),
